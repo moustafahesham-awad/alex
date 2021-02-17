@@ -36,7 +36,7 @@ int main(void)
 	DDRB|=(1<<3);
 	OCR0=5.61;
 	
-	sei();
+	//sei();
 
     while (1) 
     { 
